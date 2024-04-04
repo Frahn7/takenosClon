@@ -15,12 +15,12 @@ export default function SideBar() {
   const [HandleBar, setHandleBar] = useState("HOME");
 
   return (
-    <div className="flex justify-start flex-col w-[30%] pt-[25px] h-screen bg-white ">
+    <div className="flex justify-start flex-col fixed w-[23%] pt-[25px] h-screen bg-white ">
       <div className="py-10 px-10 items-center">
         <Image src={TakenosLogo} alt="Takenos" width={230} height={30} />
       </div>
       <div className="flex h-[1px] bg-gray-300 mb-[20px] "></div>
-      <div className="flex flex-col  ps-[20px] gap-[10px]">
+      <div className="flex flex-col  ps-[20px] gap-[5px]">
         <ButtonSideBar
           icon={<IoHomeOutline />}
           name="Home"
