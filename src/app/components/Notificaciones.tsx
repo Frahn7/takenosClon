@@ -3,11 +3,13 @@ import { IoMdNotificationsOutline } from "react-icons/io";
 
 export const Notificaciones = () => {
   return (
-    <div className="flex justify-end mt-[60px] px-[80px]">
-      <IoMdNotificationsOutline
-        color="#612dc1"
-        className="bg-white rounded-full p-2 h-[60px] w-[80px]"
-      />
+    <div className="w-full flex justify-end">
+      <div className="flex justify-end mt-[20px] mr-10 bg-white rounded-full">
+        <IoMdNotificationsOutline
+          color="#612dc1"
+          className=" p-[15px] text-[65px] "
+        />
+      </div>
     </div>
   );
 };
