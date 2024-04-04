@@ -1,9 +1,9 @@
-import SideBar from "./components/SideBar";
+import { Notificaciones } from "./components/Notificaciones";
 
 export default function Home() {
   return (
-    <div>
-      <SideBar />
+    <div className="w-full">
+      <Notificaciones />
     </div>
   );
 }
