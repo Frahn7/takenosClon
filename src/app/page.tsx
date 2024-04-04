@@ -12,6 +12,7 @@ export default function Home() {
         Takenos. Visite Takenos
         <a
           href="https://www.app.takenos.com/auth"
+          target="_blank"
           className="px-1 text-gray-500"
         >
           AQUI
