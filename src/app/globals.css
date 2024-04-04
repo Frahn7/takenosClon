@@ -6,3 +6,7 @@ body {
   background-color: #f4f7fe;
   color: #1a202c;
 }
+
+.CardShadow {
+  box-shadow: rgba(0, 0, 0, 0.125) 0px 0px 20px 0px;
+}

@@ -6,8 +6,8 @@ import { IoDownloadOutline } from "react-icons/io5";
 
 export const CardHomeName = () => {
   return (
-    <div className="bg-transparent w-full flex justify-center h-[180px] ">
-      <div className="flex justify-center CardShadow bg-white  text-[#6D37D5] w-[55%] p-[20px] rounded-lg flex-col">
+    <div className="bg-transparent w-full flex justify-center h-[180px] mt-[30px] ">
+      <div className="flex justify-center CardShadow bg-white  text-[#6D37D5] w-[55%] p-[20px] rounded-lg flex-col CardShadow">
         <p className="flex items-start  w-full text-[20px] font-semibold">
           Hola, Francisco Antonio!
         </p>

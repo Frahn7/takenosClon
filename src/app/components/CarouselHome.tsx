@@ -5,28 +5,27 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel";
 
 export function CarouselPlugin() {
   return (
-    <Carousel className="w-full max-w-xs">
+    <Carousel className="w-[56%]">
       <CarouselContent>
-        {Array.from({ length: 5 }).map((_, index) => (
+        {Array.from({ length: 2 }).map((_, index) => (
           <CarouselItem key={index}>
             <div className="p-1">
               <Card>
-                <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <span className="text-4xl font-semibold">{index + 1}</span>
+                <CardContent
+                  style={{ aspectRatio: "3/1" }}
+                  className="flex  items-center justify-center p-6"
+                >
+                  <span className="text-4xl font-semibold">Carousel</span>
                 </CardContent>
               </Card>
             </div>
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
     </Carousel>
   );
 }
